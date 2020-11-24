@@ -6,20 +6,17 @@
             "image": "benjamistan/docker-client",
             "hostname": "client",
             "essential": false
-
         },
         {
             "name": "server",
             "image": "benjamistan/docker-server",
             "hostname": "api",
             "essential": false
-
         },
         {
             "name": "worker",
             "image": "benjamistan/docker-worker",
             "essential": false
-
         },
         {
             "name": "nginx",

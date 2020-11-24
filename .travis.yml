@@ -26,10 +26,10 @@ after_success:
 deploy:
   provider: elasticbeanstalk
   region: eu-west-3
-  app: docker-complex
-  env: DockerComplex-env
+  app: docker-complex2
+  env: DockerComplex2-env
   bucket_name: elasticbeanstalk-eu-west-3-323528688928
-  bucket_path: docker-complex
+  bucket_path: docker-complex2
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
